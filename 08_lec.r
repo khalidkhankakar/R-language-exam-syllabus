@@ -10,7 +10,7 @@ oneWayAnova = summary(model)
 
 # second method
 anovaModel = aov(size ~ population)
-# print(aov.model)
+# print(anovaModel)
 
 # Applying the post of test
 
