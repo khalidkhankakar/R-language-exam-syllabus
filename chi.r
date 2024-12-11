@@ -28,4 +28,4 @@ table_type_origin <- table(Cars93$Type, Cars93$Horsepower)
 chi_square_test <- chisq.test(table_type_origin)
 
 # Step 6: Print the results
-print(chi_square_test)
+# print(chi_square_test)
