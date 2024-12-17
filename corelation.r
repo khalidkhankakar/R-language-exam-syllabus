@@ -18,8 +18,12 @@ print(pearsonCo)
 
 # line Graph
  
-plot(x,y, main = 'Pearson Corelation Plot', xlab = 'x axis', ylab = 'y axis',pch=19,col='red')
+# plot(x,y, main = 'Pearson Corelation Plot', xlab = 'x axis', ylab = 'y axis',pch=19,col='red')
 
 # Corelation test also check the p value
 corTest = cor.test(x,y)
-print(corTest)
+# print(corTest)
+
+
+
+# ------------------------------------------------------------------
